@@ -11,6 +11,7 @@ import Product from './Component/Product';
 function App() {
   return (
     
+    <>
     <BrowserRouter>
     <Navbar/>
     <Routes>
@@ -21,7 +22,7 @@ function App() {
       <Route path='/Contect' element={<Contect/>}/>
     </Routes>
     </BrowserRouter>
-    
+    </>
   );
 }
 

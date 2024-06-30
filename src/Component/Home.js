@@ -5,8 +5,11 @@ import Fakeapi from './Fakeapi'
 const Home = () => {
   return (
     <>
+    <div className='bg-card'>
     <Header/>
+    
     <Fakeapi/>
+    </div>
     </>
   )
 }

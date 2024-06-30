@@ -24,3 +24,23 @@
     text-align: center;
   }
 }
+.image-card1{
+
+  height: auto;
+  width: 100%;
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+.bg-card{
+  background-color: #4e4e4e;
+}
+.head-card{
+  text-align: center;
+  color:white;
+}
+.para-head{
+  color: blueviolet;
+  font-size:23px;
+}

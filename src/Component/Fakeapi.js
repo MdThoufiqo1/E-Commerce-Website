@@ -41,13 +41,13 @@ const Fakeapi = () => {
         return(
             <>
             <div className='buttons d-flex justify-content-center me-2 mb-2 card-all'>
-            <button className='btn btn-outline-dark m-2' onClick={()=>
+            <button className='btn btn-outline-light m-2' onClick={()=>
                 setFliter(fake) }>All</button>
-            <button className='btn btn-outline-dark m-2'
+            <button className='btn btn-outline-light m-2'
             onClick={()=>fliterProduct("men's clothing")}>Men's Clothing</button>
-            <button className='btn btn-outline-dark m-2' onClick={()=>fliterProduct("women's clothing")}>Women's Clothing</button>
-            <button className='btn btn-outline-dark m-2' onClick={()=>fliterProduct("jewelery")}>Jewelery</button>
-            <button className='btn btn-outline-dark m-2' onClick={()=>fliterProduct("electronics")}>Electronic</button>
+            <button className='btn btn-outline-light m-2' onClick={()=>fliterProduct("women's clothing")}>Women's Clothing</button>
+            <button className='btn btn-outline-light m-2' onClick={()=>fliterProduct("jewelery")}>Jewelery</button>
+            <button className='btn btn-outline-light m-2' onClick={()=>fliterProduct("electronics")}>Electronic</button>
         </div>
         {fliter.map((value)=>{
             return(
@@ -71,14 +71,16 @@ const Fakeapi = () => {
      
   return (
     <div>
-        <div className='container my-3'>
+        <div className='container my-3 '>
            <div className='row'>
              <div className='col-12 mb-5'>
-              <h1 className='text-center'>Latest Products</h1>
+              <h1 className='head-card'>Latest Products</h1>
              </div>
            </div>
            <div className='row justify-content-center'>
-             {loading ? <Loading/> : <Showproduct/>}     
+           
+             {loading ? <Loading/> : <Showproduct/>} 
+        
            </div>
         </div>
     </div>

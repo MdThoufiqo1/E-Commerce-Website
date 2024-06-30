@@ -2,7 +2,12 @@ import React from 'react'
 
 const Contect = () => {
   return (
-    <div>Contect</div>
+    <>
+    <div >
+        <img src='./Images/img7.jpg' className='image-card1'/>
+        
+    </div>
+    </>
   )
 }
 
